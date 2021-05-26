@@ -66,8 +66,8 @@ jobs:
       - name: upload site artifact
         uses: actions/upload-artifact@v2
         with:
-          name: site
-          path: _site/
+          name: build
+          path: build/
           retention-days: 5
 
       # Upload PR id for next workflow use

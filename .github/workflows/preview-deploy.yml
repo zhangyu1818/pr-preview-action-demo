@@ -34,7 +34,7 @@ jobs:
         with:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           workflow_conclusion: success
-          name: site
+          name: build
 
       - name: upload surge service
         id: deploy
